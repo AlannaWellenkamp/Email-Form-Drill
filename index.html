@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<title>Email form drill</title>
+	<link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<header>
+		<h1>Email Form</h1>
+	</header>
+	<main>
+		<section>
+			<fieldset>
+				<legend>Contact me:</legend>
+				<form action="https://formspree.io/actuallyalanna@gmail.com" method="post">
+					<label for="name">Name:</label>
+          <input id="input-name" type="text" name="name" placeholder="Jane Doe">
+          <label for="email">Email address:</label>
+          <input id="input-email" type="text" name="email" placeholder="someone@somewhere.com">
+          <label for="message">Message:</label>
+          <textarea id="input-message" name="message" placeholder="What did you want to talk about?"></textarea>
+          <button type="submit">Send</button>
+				</form>
+			</fieldset>
+		</section>
+	</main>      
+          
+      <script src="script.js"></script>
+  </body>
+</html>
